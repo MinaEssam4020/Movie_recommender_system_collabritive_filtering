@@ -48,7 +48,7 @@ predicted_rating = collab_generate_rating_estimate(
 
 ## Requirements
 
-- Python 3.7+
+- Python
 - pandas
 - numpy
 - scikit-learn
@@ -60,7 +60,6 @@ predicted_rating = collab_generate_rating_estimate(
 
 - `Main.ipynb` - Full implementation and analysis
 - `book_ratings.csv` - Dataset
-- `collaborative_filter_data.pkl` - Pre-computed matrices (for faster iterations)
 
 ## Key Learnings
 
@@ -76,3 +75,4 @@ predicted_rating = collab_generate_rating_estimate(
 - Handle cold-start problem for new users
 - Add item-based collaborative filtering
 - Implement matrix factorization (SVD) for scalability
+
